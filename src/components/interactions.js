@@ -25,11 +25,8 @@ export function setupScrollAnimations() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('in-view');
-        // Optional: stop observing once animated
-        // observer.unobserve(entry.target);
-      } else {
-        // Reset animation on scroll out for a smooth repeat effect
-        entry.target.classList.remove('in-view');
+        // Stop observing once animated so it stays visible
+        observer.unobserve(entry.target);
       }
     });
   }, observerOptions);

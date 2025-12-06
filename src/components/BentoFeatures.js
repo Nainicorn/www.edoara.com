@@ -9,7 +9,7 @@ const features = [
     id: 1,
     image: uniqueBento,
     alt: 'Unique Icon',
-    title: 'unique features',
+    title: 'unique tools',
     description: 'Innovative tools like simulations, gamification, real-world examples, video walkthrough lessons, simple story podcasts, and the Rubber Ducky Method'
   },
   {

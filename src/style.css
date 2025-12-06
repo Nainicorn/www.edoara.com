@@ -167,7 +167,8 @@ body {
 .logo-image {
     width: 32px;
     height: 32px;
-    object-fit: contain;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .logo-text {
@@ -810,6 +811,7 @@ body {
     .logo-image {
         width: 28px;
         height: 28px;
+        border-radius: 50%;
     }
 
     .early-access-btn {
@@ -961,6 +963,7 @@ body {
     .logo-image {
         width: 24px;
         height: 24px;
+        border-radius: 50%;
     }
 
     .early-access-btn {
